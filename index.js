@@ -3,8 +3,8 @@ const crypto = require('crypto');
 const app = express();
 app.use(express.json());
 
-const VERIFICATION_TOKEN = 'ここに自分のVerification Tokenを貼る';
-const ENDPOINT_URL = 'https://xxxx.onrender.com/ebay/notifications'; // 自分のURLに変更
+const VERIFICATION_TOKEN = 'tigerdragonsomatigerdragonsomatigerdragonsoma';
+const ENDPOINT_URL = 'https://ebay-endpoint-br4w.onrender.com/ebay/notifications'; // 自分のURLに変更
 
 // eBayの疎通確認に応答する
 app.get('/ebay/notifications', (req, res) => {
